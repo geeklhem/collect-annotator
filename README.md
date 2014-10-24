@@ -1,14 +1,18 @@
 # collect-annotator
 
-A small (Annotator)[http://annotatorjs.org/] plugin made to send by email all current annotations.
+A small [Annotator](http://annotatorjs.org/) plugin made to send by email all current annotations. 
 
 ## Live-Demo
 A [live demo is available](http://www.eleves.ens.fr/home/doulcier/projects/collect-annotator/demo.html).
 
 ## How to
-As collect-annotator is a plugin to Annotator, you need to have it enabled on your webpage. Go to Annotator's (Getting Started)[http://docs.annotatorjs.org/en/latest/getting-started.html] documentation page for more information.
 
-Then, assuming you have downloaded the `collect-annotator.js` file in the same folder as your webpage, you have to add the following to your HTML header (this snippet also load a hosted version of jquery and annotator):
+As collect-annotator is a plugin to Annotator, so obviously you need
+to have it enabled on your webpage. Go to Annotator's [Getting
+Started](http://docs.annotatorjs.org/en/latest/getting-started.html)
+documentation page for more information.
+
+Then, assuming you have downloaded the `collect-annotator.js` file in the same folder as your webpage, you have to add the following to your HTML header (this snippet also load a hosted version of JQuery and Annotator):
 
 ```html
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
