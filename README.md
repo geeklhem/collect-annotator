@@ -33,7 +33,7 @@ You also have to add a link to use collect-annotator:
 <div id="content">
 Your text that need to be annotated.
 </div>
-<p><a id="send" href="#">Send the annotations</a></p>	
+<button id="send">Send the annotations</button>
 ```
 
 The neat thing is that, as it is a `mailto` link, sending the
