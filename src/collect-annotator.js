@@ -50,7 +50,7 @@ parse_object = function (obj){
 		s += obj[id]["text"] + "\n\n";
 	}
 	s += "Regards,\n"
-	return escape(s)
+	return  encodeURIComponent(s)
 }
 
 
